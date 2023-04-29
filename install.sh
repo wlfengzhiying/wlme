@@ -920,19 +920,19 @@ install_v2ray_ws_tls() {
     port_exist_check 80
     port_exist_check "${port}"
     nginx_exist_check
-    v2ray_conf_add_tls
-    nginx_conf_add
-    web_camouflage
-    ssl_judge_and_install
-    nginx_systemd
-    vmess_qr_config_tls_ws
-    basic_information
-    vmess_link_image_choice
-    tls_type
-    show_information
-    start_process_systemd
-    enable_process_systemd
-    acme_cron_update
+#    v2ray_conf_add_tls
+#    nginx_conf_add
+#    web_camouflage
+#    ssl_judge_and_install
+#    nginx_systemd
+#    vmess_qr_config_tls_ws
+#    basic_information
+#    vmess_link_image_choice
+#    tls_type
+#    show_information
+#    start_process_systemd
+#    enable_process_systemd
+#    acme_cron_update
 }
 install_v2_h2() {
     is_root
