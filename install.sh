@@ -908,18 +908,18 @@ judge_mode() {
     fi
 }
 install_v2ray_ws_tls() {
-    is_root
-    check_system
+#    is_root
+#    check_system
 #    chrony_install
-    dependency_install
-    basic_optimization
-    domain_check
-    old_config_exist_check
-    port_alterid_set
+#    dependency_install
+#    basic_optimization
+#    domain_check
+#    old_config_exist_check
+#    port_alterid_set
     v2ray_install
-    port_exist_check 80
-    port_exist_check "${port}"
-    nginx_exist_check
+#    port_exist_check 80
+#    port_exist_check "${port}"
+#    nginx_exist_check
 #    v2ray_conf_add_tls
 #    nginx_conf_add
 #    web_camouflage
