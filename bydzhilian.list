@@ -1,0 +1,24 @@
+# 比亚迪主域名直连
+host, byd.com, DIRECT 
+host, bydcloud.com, DIRECT 
+host, bydauto.com.cn, DIRECT 
+ 
+# APP接口及服务直连
+host-suffix, bydapp.com, DIRECT 
+host-suffix, bydintl.com, DIRECT 
+host-keyword, bydocean, DIRECT  # 车联网服务 
+ 
+# 静态资源及CDN
+host, cdn.byd.com, DIRECT 
+host, img.bydauto.com.cn, DIRECT
+ 
+# 地图及导航服务（部分比亚迪车型集成）
+host, map.byd.com, DIRECT 
+host, navi.bydcloud.com, DIRECT
+ 
+# 备用IP段直连（防止域名解析失败）
+ip-cidr, 121.52.0.0/16, DIRECT  # 比亚迪深圳数据中心 
+ip-cidr, 183.62.0.0/16, DIRECT  # 比亚迪云服务IP段
+
+#企业版用户**：若使用比亚迪企业账号
+host, bydbusiness.com, DIRECT
