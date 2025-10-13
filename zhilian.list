@@ -1,0 +1,10 @@
+# 小白学习打印 直连规则
+DOMAIN-SUFFIX,xbcloudprint.com,DIRECT
+DOMAIN-SUFFIX,xbcloudprint.net,DIRECT
+DOMAIN-SUFFIX,xbxxhz.com,DIRECT
+DOMAIN-SUFFIX,kfb.xbxxhz.com,DIRECT
+DOMAIN-SUFFIX,api.xbxxhz.com,DIRECT
+DOMAIN-SUFFIX,kfb.xbxxhz.com,DIRECT
+DOMAIN-SUFFIX,xbxxhz.net,DIRECT
+DOMAIN-SUFFIX,xbxxhz.cn,DIRECT
+DOMAIN-KEYWORD,xb,DIRECT
